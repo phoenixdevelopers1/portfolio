@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 65px;
+    margin: 20px 7px 0 0;
+    width: 55px;
+}
+
+.logo h3{
+    font-size: 17px;
+    font-family: 'Inter';
+    text-transform: capitalize;
+    width: 30px;
+    line-height: 15px;
+}
+
+.logo h3 span {
+    font-weight: 500;
+}
+.nav-bar{
+    height: 10vh;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links ul li{
+    margin: 0 20px;
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    /* line-height: 25px; */
+    /* letter-spacing: 0.1px; */
+    color: #000000;
+
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+}
+#contact-btn a{
+    color: white;
+    padding:10px 20px;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 15px 0 20px 0;
+    text-transform: capitalize;
+    height: 35px;
+    border: none;
+    background: #530DC8;
+    border-radius: 16px;
+}
+#contact-btn{
+    position: relative;
+    bottom: 10px;
+}
+#contact-arrow{
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.main-home-content{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    padding: 30px 20px 0 20px;
+}
+
+.main-text{
+    width: 100%;
+    padding: 0 0 0 20px;
+
+}
+.main-text h1{
+    width: 350px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 45px; 
+    letter-spacing: -0.5px;
+    color: #000000;
+    margin: 0 0 20px 0;
+}
+
+.main-text h1 span{
+    color:#ffc728;
+    font-weight: 200;
+    letter-spacing: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.main-text h4{
+    width: 469px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.15px;
+    color: #797979;
+    
+}
+.main-text  button{
+    border-radius: 16px;
+    color: #fff;
+    background-color:#530DC8;
+    padding: 5px 12px;
+    justify-content: space-between;
+    width: 120px;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 35px 0 20px 0;
+    text-transform: capitalize;
+    height: 40px;
+    border: none;
+}
+.main-text button img{
+    position: relative;
+    bottom: 6.5px;
+    left: 25px;
+
+}
+.main-text button #polygon{
+    position: relative;
+    left: 45px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+}
+hr{
+    width: 300px;
+    margin: 0 0 10px;
+}
+.main-text h3{
+    width: 269px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.25px;
+    color: #530DC8;
+}
+.main-text h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px 0 0 0;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    color: #000000;
+
+}
+
+.main-img{
+    width: 100%;
+}
+.main-img img{
+    height: 400px;
+    width: 85%;
+}
+.user-input-form{
+    padding: 0 0 0 15px;
+    display: flex;
+    margin:90px 0 0 30px ;
+    width: 300px;
+}
+.user-input-form select{
+    padding: 5px;
+    height:40px ;
+    border: 1px solid rgba(0, 0, 0, 0.453);
+}
+.user-input-form input{
+    padding: 5px 0 5px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.453);
+    height: 40px;
+    width: 250px;
+}
+.input{
+    display: flex;
+}
+.input img{
+    position: relative;
+    left: 55px;
+    top: 9px;
+    width: 25px;
+    height: 20px;
+}
+#input-arrow{
+    position: relative;
+    left: 240px;
+    top: 9px;
+    width: 25px;
+    height: 20px;
+}
+/* about us beginning */
+.about-us{
+    height: 70vh;
+    width: 100%;
+    margin: 70px 0  80px 0;
+    display: flex;
+    padding: 0 30px;
+}
+.aboutus-text{
+    width: 100%;
+
+}
+.aboutus-text h2{
+    text-transform: uppercase;
+    font-family: 'Inter';
+    color: #530DC8;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+.aboutus-text h1{
+    width: 320px;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Inter';
+   
+}
+.aboutus-text h4{
+    width: 549px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.15px;
+    color: #797979;
+    margin: 10px 0 25px 0;
+}
+.aboutus-img{
+    width: 100%;
+
+}
+.aboutus-img img{
+    height: 400px;
+    width: 85%;
+}
+.aboutus-text button{
+    border-radius: 16px;
+    color: #530DC8;
+    background-color:#ffc728;
+    padding: 5px 12px;
+    justify-content: space-between;
+    width: 120px;
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 50px 0 20px 0;
+    text-transform: capitalize;
+    height: 40px;
+    border: none;
+}
+.aboutus-text button img{
+    position: relative;
+    bottom: 8px;
+}
+.sponsors{
+    margin:20px auto 40px auto;
+    display: flex;
+    width: 90%;
+    padding: 0 20px;
+    border-radius: 25px;
+    height: 50px;
+    box-shadow: -1px -1px 2px rgb(209, 209, 209),1px 1px 2px rgb(209, 209, 209);
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsors h2{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+.sponsors img{
+    height: 30px;
+    width: 90px;
+}
+
+/* about us ending*/
+
+
+/* next dev paste your css code here */
+
+/* next dev end your css code here */
+
