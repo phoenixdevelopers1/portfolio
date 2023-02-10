@@ -576,3 +576,127 @@ hr {
   letter-spacing: 0.15px;
   color: #fff;
 }
+
+/* TESTIMONIAL SECTION  */
+.testimonial {
+  display: flex;
+  gap: 48px;
+  background-color: #f4fbff80;
+  padding: 150px 100px;
+  font-family: "Inter";
+}
+
+.left h3 {
+  color: #530dc8;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.15px;
+  margin-bottom: 22px;
+}
+
+.first {
+  font-weight: 700;
+  width: 447px;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+.second {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.15px;
+  width: 447px;
+  height: 67px;
+  color: #5f5f5f;
+}
+
+.left a {
+  text-decoration: none;
+}
+
+.left button {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #530dc8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 318px;
+  height: 63px;
+  background: #ffc727;
+  border-radius: 16px;
+  border: 0;
+}
+
+.right-grid {
+  display: grid;
+  gap: 15.62px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  /* width: 532.19px;
+  height: 252px; */
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+
+.comment-box > img {
+  margin-bottom: 20px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 0px;
+  gap: 16px;
+}
+
+.comment > p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.15px;
+  color: #797979;
+}
+
+.name {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 19px;
+}
+
+.name p:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  color: #530dc8;
+}
+
+.name p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  color: #959090;
+}
