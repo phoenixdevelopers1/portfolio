@@ -703,31 +703,31 @@ hr {
 
 .comment > p {
   font-weight: 400;
-  font-size: 17px;
-  line-height: 26px;
-  letter-spacing: 0.15px;
-  color: #797979;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.015rem;
+  color: var(--Dark-gray);
 }
 
 .name {
   display: flex;
   align-items: flex-start;
-  padding: 0px;
-  gap: 19px;
+  padding: 0rem;
+  gap: 1.9rem;
 }
 
 .name p:nth-of-type(1) {
   font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.5px;
-  color: #530dc8;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.05rem;
+  color: var(--Interdimensional-Blue);
 }
 
 .name p:nth-of-type(2) {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.5px;
-  color: #959090;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.05rem;
+  color: var(--Dark-gray);
 }
