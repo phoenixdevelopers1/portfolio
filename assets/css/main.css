@@ -6,8 +6,7 @@
   --banana: #ffc728;
   --Dark-gray: #797979;
   --Interdimensional-Blue: #530dc8;
-  --alice-blue: #F4FBFF80;
-  ;
+  --alice-blue: #f4fbff80;
 }
 
 * {
@@ -34,109 +33,111 @@ body {
 
 .logo img {
   height: 6.5rem;
-  margin: 2.0rem 0.7rem 0 0;
+  margin: 2rem 0.7rem 0 0;
   width: 5.5rem;
 }
 
-.logo h3 {
+.logo p {
   font-size: 1.7rem;
   font-family: "Inter";
   text-transform: capitalize;
-  width: 3.0rem;
+  width: 3rem;
   line-height: 1.5rem;
 }
 
-.logo h3 span {
+.logo p span {
   font-weight: 500;
 }
 
 .nav-bar {
-  height: 10vh;
   display: flex;
-  padding: 0 2.0rem;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 2.0rem 0;
+  height: 10vh;
+  margin: 2rem 0;
+  padding: 0 2rem;
 }
 
 .nav-links ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
 }
 
 .nav-links ul li {
-  margin: 0 2.0rem;
-  text-transform: capitalize;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 1.7rem;
   color: var(--black);
+  margin: 0 2rem;
+  text-transform: capitalize;
 }
 
 .nav-links ul li a {
   text-decoration: none;
-  color:var(--black);
+  color: var(--black);
 }
 
-#contact-btn a {
+.contact-btn {
+  background: var(--Interdimensional-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--white);
-  padding: 1.0rem 2.0rem;
+  padding: 1rem 2rem;
+  margin: 1.5rem 0 2rem 0;
   font-weight: 700;
   font-size: 1.7rem;
-  margin: 1.5rem 0 2.0rem 0;
   text-transform: capitalize;
-  height: 3.5rem;
   border: none;
-  background: var(--Interdimensional-Blue);
   border-radius: 1.6rem;
 }
 
-#contact-btn {
+/* #contact-btn {
   position: relative;
-  bottom: 1.0rem;
-}
+  bottom: 1rem;
+} */
 
-#contact-arrow {
-  position: relative;
-  top: 1.0rem;
-  left: 1.5rem;
+.contact-arrow {
+  margin-left: 1.25rem;
 }
 
 .main-home-content {
   height: 75vh;
   width: 100%;
   display: flex;
-  padding: 3.0rem 2.0rem 0 2.0rem;
+  padding: 3rem 2rem 0 2rem;
 }
 
 .main-text {
   width: 100%;
-  padding: 0 0 0 2.0rem;
+  padding: 0 0 0 2rem;
 }
 
 .main-text h1 {
   width: 35rem;
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
-  font-size: 4.5rem;
-  line-height: 4.5rem;
-  letter-spacing: -0.05rem;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.5px;
   color: var(--black);
-  margin: 0 0 2.0rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .main-text h1 span {
   color: var(--banana);
-  font-weight: 200;
+  font-weight: 700;
   letter-spacing: 0;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
 }
 
-.main-text h4 {
+.main-text h2 {
   width: 46.9rem;
   height: 4.2rem;
   font-family: "Inter";
@@ -148,41 +149,47 @@ body {
   color: var(--Dark-gray);
 }
 
-.main-text button {
+.button-polygon {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+/* .main-text button {
   border-radius: 1.6rem;
   color: var(--white);
   background-color: var(--Interdimensional-Blue);
   padding: 0.5rem 1.2rem;
   justify-content: space-between;
-  width: 12.0rem;
-  padding: 1.0rem;
-  width: 15.0rem;
+  width: 12rem;
+  padding: 1rem;
+  width: 15rem;
   display: flex;
   font-weight: 700;
   font-size: 1.7rem;
-  margin: 3.5rem 0 2.0rem 0;
+  margin: 3.5rem 0 2rem 0;
   text-transform: capitalize;
-  height: 4.0rem;
+  height: 4rem;
   border: none;
-}
+} */
 
-.main-text button img {
+/* .main-text button img {
   position: relative;
   bottom: 0.65rem;
   left: 2.5rem;
-}
+} */
 
-.main-text button #polygon {
+/* .main-text button #polygon {
   position: relative;
   left: 4.5rem;
   top: 0.1rem;
-  width: 2.0rem;
-  height: 2.0rem;
-}
+  width: 2rem;
+  height: 2rem;
+} */
 
 hr {
-  width: 30.0rem;
-  margin: 0 0 1.0rem;
+  width: 30rem;
+  margin: 0 0 1rem;
 }
 
 .main-text h3 {
@@ -210,25 +217,25 @@ hr {
   width: 100%;
 }
 .main-img img {
-  height: 40.0rem;
+  height: 40rem;
   width: 85%;
 }
 .user-input-form {
   padding: 0 0 0 1.5rem;
   display: flex;
-  margin: 9.0rem 0 0 3.0rem;
-  width: 30.0rem;
+  margin: 9rem 0 0 3rem;
+  width: 30rem;
 }
 .user-input-form select {
   padding: 0.5rem;
-  height: 4.0rem;
+  height: 4rem;
   border: 1px solid rgba(0, 0, 0, 0.453);
 }
 .user-input-form input {
-  padding: 0.5rem 0 0.5rem 4.0rem;
+  padding: 0.5rem 0 0.5rem 4rem;
   border: 1px solid rgba(0, 0, 0, 0.453);
-  height: 4.0rem;
-  width: 25.0rem;
+  height: 4rem;
+  width: 25rem;
 }
 .input {
   display: flex;
@@ -238,22 +245,22 @@ hr {
   left: 5.5rem;
   top: 0.9rem;
   width: 2.5rem;
-  height: 2.0rem;
+  height: 2rem;
 }
 #input-arrow {
   position: relative;
-  left: 24.0rem;
+  left: 24rem;
   top: 0.9rem;
   width: 2.5rem;
-  height: 2.0rem;
+  height: 2rem;
 }
 /* about us beginning */
 .about-us {
   height: 70vh;
   width: 100%;
-  margin: 7.0rem 0 8.0rem 0;
+  margin: 7rem 0 8rem 0;
   display: flex;
-  padding: 0 3.0rem;
+  padding: 0 3rem;
 }
 .aboutus-text {
   width: 100%;
@@ -262,11 +269,11 @@ hr {
   text-transform: uppercase;
   font-family: "Inter";
   color: var(--Interdimensional-Blue);
-  margin: 0 0 1.0rem 0;
-  font-size: 2.0rem;
+  margin: 0 0 1rem 0;
+  font-size: 2rem;
 }
 .aboutus-text h1 {
-  width: 32.0rem;
+  width: 32rem;
   font-weight: 600;
   font-size: 4.5rem;
   font-family: "Inter";
@@ -281,13 +288,13 @@ hr {
   line-height: 2.1rem;
   letter-spacing: 0.015rem;
   color: var(--Dark-gray);
-  margin: 1.0rem 0 2.5rem 0;
+  margin: 1rem 0 2.5rem 0;
 }
 .aboutus-img {
   width: 100%;
 }
 .aboutus-img img {
-  height: 40.0rem;
+  height: 40rem;
   width: 85%;
 }
 .aboutus-text button {
@@ -296,15 +303,15 @@ hr {
   background-color: var(--banana);
   padding: 0.5rem 1.2rem;
   justify-content: space-between;
-  width: 12.0rem;
-  padding: 1.0rem;
-  width: 15.0rem;
+  width: 12rem;
+  padding: 1rem;
+  width: 15rem;
   display: flex;
   font-weight: 700;
   font-size: 1.7rem;
-  margin: 5.0rem 0 2.0rem 0;
+  margin: 5rem 0 2rem 0;
   text-transform: capitalize;
-  height: 4.0rem;
+  height: 4rem;
   border: none;
 }
 
@@ -313,25 +320,25 @@ hr {
   bottom: 8px;
 }
 .sponsors {
-  margin: 2.0rem auto 4.0rem auto;
+  margin: 2rem auto 4rem auto;
   display: flex;
   width: 90%;
-  padding: 0 2.0rem;
+  padding: 0 2rem;
   border-radius: 2.5rem;
-  height: 5.0rem;
+  height: 5rem;
   box-shadow: -1px -1px 2px rgb(209, 209, 209), 1px 1px 2px rgb(209, 209, 209);
   justify-content: space-between;
   align-items: center;
 }
 .sponsors h2 {
   text-transform: capitalize;
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-family: "Inter";
   font-weight: 600;
 }
 .sponsors img {
-  height: 3.0rem;
-  width: 9.0rem;
+  height: 3rem;
+  width: 9rem;
 }
 
 /* SERVICE SECTION */
@@ -358,7 +365,7 @@ hr {
   position: relative; */
   background-color: var(--alice-blue);
   padding-top: 6.7rem;
-  margin-top: 21.0rem;
+  margin-top: 21rem;
   text-align: center;
 }
 
@@ -413,10 +420,10 @@ hr {
   margin: 0 auto;
   font-family: Inter;
   height: 6.3rem;
-  width: 20.0rem;
+  width: 20rem;
   border: 0;
   border-radius: 1.6rem;
-  padding: 1.0rem;
+  padding: 1rem;
   background-color: var(--banana);
   font-size: 2.1rem;
   font-weight: 400;
@@ -435,7 +442,7 @@ hr {
   text-align: left;
   align-items: center;
   justify-content: center;
-  margin-top: 8.0rem;
+  margin-top: 8rem;
 }
 
 .card {
@@ -485,10 +492,10 @@ hr {
   line-height: 2.1rem;
   text-align: center;
   letter-spacing: 0.015rem;
-  padding: 1.0rem;
-  gap: 1.0rem;
+  padding: 1rem;
+  gap: 1rem;
   width: 16.4rem;
-  height: 5.0rem;
+  height: 5rem;
   background: var(--Interdimensional-Blue);
   border-radius: 1.6rem;
 }
@@ -525,7 +532,7 @@ hr {
 .project {
   font-family: "Inter";
   font-style: normal;
-  margin: 12.5rem 15.0rem 18.0rem;
+  margin: 12.5rem 15rem 18rem;
 }
 
 .project-p {
@@ -568,7 +575,7 @@ hr {
   width: 100%;
   height: 100%;
   grid-row: span 1;
-  border-radius: 1.0rem; /* ..... */
+  border-radius: 1rem; /* ..... */
   overflow: hidden;
 }
 
@@ -591,9 +598,9 @@ hr {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 1.0rem;
+  padding: 1rem;
   margin: 0 auto;
-  gap: 1.0rem;
+  gap: 1rem;
   width: 27.5rem;
   height: 6.3rem;
   background: var(--Interdimensional-Blue);
@@ -613,7 +620,7 @@ hr {
   display: flex;
   gap: 4.8rem;
   background-color: var(--alice-blue);
-  padding: 15.0rem 10.0rem;
+  padding: 15rem 10rem;
   font-family: "Inter";
 }
 
@@ -661,8 +668,8 @@ hr {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 1.0rem;
-  gap: 1.0rem;
+  padding: 1rem;
+  gap: 1rem;
   width: 31.8rem;
   height: 6.3rem;
   background: var(--banana);
@@ -690,14 +697,14 @@ hr {
 }
 
 .comment-box > img {
-  margin-bottom: 2.0rem;
+  margin-bottom: 2rem;
 }
 
 .comment {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 1.0rem 0rem;
+  padding: 1rem 0rem;
   gap: 1.6rem;
 }
 
