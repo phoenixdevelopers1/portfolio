@@ -25,7 +25,7 @@ body {
   font-size: 1.7rem;
 }
 
-/* NAVBAR */
+/* NAVBAR SECTION */
 .nav-bar {
   display: flex;
   align-items: center;
@@ -309,7 +309,7 @@ hr {
   width: 9rem;
 }
 
-
+/* SERVICE SECTION */
 .service {
   font-family: "Inter";
   background-color: var(--alice-blue);
@@ -562,7 +562,6 @@ hr {
   letter-spacing: 0.015rem;
   color: var(--white);
 }
-
 
 
 /* TESTIMONIAL SECTION  */
