@@ -120,9 +120,9 @@ body {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 72px;
-  letter-spacing: -0.5px;
+  font-size: 6.4rem;
+  line-height: 7.2rem;
+  letter-spacing: -0.05rem;
   color: var(--black);
   margin: 0 0 2rem 0;
 }
@@ -262,9 +262,9 @@ hr {
   width: 2.5rem;
   height: 2rem;
 }
-/* ABOUT US */
+/* ABOUT US SECTION */
 .about-us {
-  padding: 0 8rem 5rem;
+  padding: 0 7rem 5rem;
   /* height: 70vh; */
   /* width: 100%; */
   margin: 7rem 0 8rem 0;
@@ -401,7 +401,7 @@ hr {
   margin-bottom: 2.2rem;
 }
 
-.first-p {
+.service p:nth-child(2) {
   font-size: 6.4rem;
   font-weight: 700;
   line-height: 7.2rem;
@@ -410,7 +410,7 @@ hr {
   margin-bottom: 2.2rem;
 }
 
-.includes {
+.service p:nth-child(2) span {
   font-size: 6.4rem;
   font-weight: 300;
   line-height: 7.2rem;
@@ -418,7 +418,7 @@ hr {
   text-align: center;
 }
 
-.second-p {
+.service p:nth-of-type(2) {
   font-family: Inter;
   font-size: 1.7rem;
   margin: 0 auto;
@@ -427,7 +427,7 @@ hr {
   letter-spacing: 0.15000000596046448px;
   text-align: center;
   width: 61.4rem;
-  height: 10.5rem;
+  height: 10.5rem; 
   color: var(--Dark-gray);
   margin-bottom: 2.2rem;
 }
@@ -456,7 +456,7 @@ hr {
   color: var(--Interdimensional-Blue);
 }
 
-.blue {
+.service-button img {
   margin-left: 1.5rem;
 }
 
@@ -539,14 +539,14 @@ hr {
   color: var(--white);
 }
 
-.card .odd {
+.card:nth-child(3) button {
   background-color: var(--white);
   color: var(--Interdimensional-Blue);
 }
 
 /* MODIFICATION ENDS */
 
-.blue2 {
+.card img:nth-of-type(1) {
   margin-left: 1.25rem;
 }
 
@@ -557,7 +557,7 @@ hr {
   margin: 12.5rem 15rem 18rem;
 }
 
-.project-p {
+.project p:nth-child(1) {
   font-weight: 700;
   font-size: 2.1rem;
   line-height: 2.5rem;
@@ -575,7 +575,7 @@ hr {
   color: var(--black);
 }
 
-.project-p2 {
+.project p:nth-of-type(2) {
   width: 55.1rem;
   font-weight: 400;
   font-size: 1.7rem;
@@ -623,7 +623,7 @@ hr {
   padding: 1rem;
   margin: 0 auto;
   gap: 1rem;
-  width: 27.5rem;
+   width: 27.5rem;
   height: 6.3rem;
   background: var(--Interdimensional-Blue);
   border-radius: 1.6rem;
@@ -637,12 +637,14 @@ hr {
   color: var(--white);
 }
 
+
+
 /* TESTIMONIAL SECTION  */
 .testimonial {
   display: flex;
   gap: 4.8rem;
   background-color: var(--alice-blue);
-  padding: 15rem 10rem;
+  padding: 15rem 7rem 10rem;
   font-family: "Inter";
 }
 
@@ -655,7 +657,7 @@ hr {
   margin-bottom: 2.2rem;
 }
 
-.first {
+.left p:nth-child(2) {
   font-weight: 700;
   width: 44.7rem;
   font-size: 6.4rem;
@@ -664,14 +666,14 @@ hr {
   color: var(--black);
 }
 
-.second {
+.left p:nth-child(3) {
   font-weight: 400;
   font-size: 1.7rem;
   line-height: 2.6rem;
   letter-spacing: 0.015rem;
   width: 44.7rem;
   height: 6.7rem;
-  color: var(--granite-gray);
+  color: var(--Dark-gray);
 }
 
 .left a {
@@ -760,3 +762,5 @@ hr {
   letter-spacing: 0.05rem;
   color: var(--Dark-gray);
 }
+
+
