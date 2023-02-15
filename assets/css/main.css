@@ -921,7 +921,7 @@ hr {
 
 .main-message{
   display: flex;
-  padding: 0rem 0rem 16.0rem 2rem;
+  padding: 1rem 0rem 16.0rem 2rem;
   gap: 2.6rem;
   width: 46.6rem;
   height: 20.1rem;
