@@ -695,8 +695,6 @@ hr {
 .div-one{
   text-align: center;
   padding-top: 2em;
-  margin-left: 30%;
-  margin-right: 30%;
 }
 
 .div-one h4{
@@ -720,13 +718,15 @@ hr {
   margin-top: 1.4rem;
   font-weight: 400;
   letter-spacing: 0.015rem;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .grid-container{
-  column-gap: 5px;
-  row-gap: 5px;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(3,1fr);
   margin-top: 3em;
   text-align: center;
   padding-right: 8px;
@@ -734,7 +734,7 @@ hr {
 }
 
 .img-holder{
-  height: 430px;
+  height: 67rem;
   width: 100%;
   border-radius: 16px;
 }
@@ -1047,62 +1047,6 @@ hr {
   font-size: 1.7rem;
   line-height: 2.1rem;
 letter-spacing: 0.015rem;
-}
-
-@media screen and (max-width:535px){
- .grid-container{
-      grid-template-columns: repeat(3,1fr);
-  }
-
-  .div-one{
-      margin-left: 30%;
-      margin-right: 30%;
-  }
-}
-
-@media screen and (max-width:768px) {
-  .grid-container{
-      grid-template-columns: repeat(2,1fr);
-  }
-
-  .container-two{
-      display: block;
-  }
-
-  .div-four{
-      padding-top: 3em;
-  }
-
-  .div-two{
-      margin-left: 0px;
-      margin-top: 2em;
-      padding-bottom: 3em;
-  }
-
-  .container-three{
-      display: block;
-  }
-
-  .grid-container{
-     justify-items: center;
-  }
-
-  .img-holder{
-      height: 430px;
-      width: fit-content;
-      border-radius: 16px;
-  }
-
-  .div-one{
-      margin-left: 0%;
-      margin-right: 0%;
-  }
-
-  .div-eight > :nth-child(1){
-    float: left;
-    margin-top: -2rem;
-  }
-
 }
 
 /*Team Members styling ends*/
